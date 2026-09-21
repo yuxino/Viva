@@ -6,15 +6,16 @@
 
 <p align="center"><a href="https://viva.yuxino.cn">Website</a></p>
 
-<p align="center">A quiet, local-first workspace for Markdown.</p>
+<p align="center">A Markdown editor for local files on macOS and Windows.</p>
 
 <p align="center">
   English · <a href="README_ZH.md">简体中文</a>
 </p>
 
-Viva brings your folders, Markdown source, and beautifully typeset pages into
-one focused desktop workspace. Your files remain ordinary files on your own
-computer—no account, sync service, or proprietary document format required.
+Viva opens a folder of Markdown files so you can write notes, edit drafts, and
+search across documents. Click a paragraph to edit its source in place, or keep
+source and preview side by side. Files stay on your computer as ordinary
+Markdown; no account or sync service is required.
 
 <!-- project-demo-v1 -->
 ## Demo
@@ -26,22 +27,22 @@ computer—no account, sync service, or proprietary document format required.
 <p align="center"><a href="docs/demos/demo.mp4">Watch video</a></p>
 <!-- /project-demo-v1 -->
 
-## Write without leaving the page
+## Edit Markdown in place
 
-Live mode keeps the document rendered while you write. Click a paragraph to
-edit its Markdown in place, then move on without losing the shape and rhythm of
-the page. Source, Split, Preview, and Focus modes are always close at hand when
-you need a different view.
+In Live mode, click a paragraph to edit its Markdown while the rest of the
+document stays rendered. Source, Split, and Preview views let you work with
+source text, a side-by-side preview, or the rendered document. Focus mode hides
+the sidebar and preview.
 
-## What makes Viva useful
+## Features
 
-- Open any folder and work across real tabs with a fast, keyboard-friendly tree and safe file actions.
+- Open a folder, keep several documents in tabs, and navigate or manage files from the file tree.
 - Search the whole workspace, follow the document outline, and recover earlier saves.
 - Find and replace in the current document, and paste images into local `assets/` with relative paths.
 - Read Dart, TypeScript, and other fenced code with built-in syntax highlighting.
 - Preserve each document's LF or CRLF line endings across editing, Save As, and history restores.
-- Keep unsaved work visible and protected across tabs, windows, and native quit flows.
-- Choose a calm light or graphite-dark workspace, with an optional local background.
+- See which documents have unsaved changes and choose what to save before closing a tab, window, or the app.
+- Choose a light or dark theme and, optionally, a local background image.
 
 ## Local by default
 
@@ -53,11 +54,10 @@ settings, and usage data are never included.
 
 ## Signed software updates
 
-Viva 2.0.6 introduces user-confirmed in-app updates. Open **Appearance and
-background → Software Update** to check the fixed release feed, read the release
-notes, and choose whether to download. Tauri verifies every downloaded updater
-bundle against Viva's embedded public key before installation; there is no
-unsigned fallback.
+Open **Appearance and background → Software Update** to check for a new
+version, read the release notes, and choose whether to download. Tauri verifies
+the update package against Viva's embedded public key before installation.
+Packages that fail verification cannot be installed.
 
 **Bootstrap:** Install 2.0.7 or later manually once from
 [GitHub Releases](https://github.com/yuxino/viva/releases) if you use 2.0.6 or earlier.
